@@ -19,9 +19,9 @@ Send Real-Time Alerts: Businesses will get instant notifications (via tools like
 Milestone 1
 Tasks: 
 1. Project Infrastructure Setup. Set up tools and libraries for development (e.g.Google Colab, Python, NLP libraries, data analysis tools).
-2. Integrate global news APIs for data collection.
+2. Generate and Integrate APIs for data collection.
 3. Data Collection. Identify and shortlist reliable data sources (e.g., global news APIs, supplier databases, and transportation reports).
 Extract data such as news articles, supplier updates, import export dates, and market trends.
 Format and store data in a database for further analysis.
 4. Configure project repository and folder structure in GitHub.
-5. Install and configure LLMs like OpenAI GPT and Meta LLaMA for trainig using collected data.
+5. Install and configure LLMs like bert distilbert, t5 model and Meta LLaMA for trainig using collected data.
