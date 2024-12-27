@@ -25,3 +25,12 @@ Extract data such as news articles, supplier updates, import export dates, and m
 Format and store data in a database for further analysis.
 4. Configure project repository and folder structure in GitHub.
 5. Install and configure LLMs like bert distilbert, t5 model and Meta LLaMA for trainig using collected data.
+
+Milestone 2
+Tasks:
+1. Choose a specific product for start to end analysis.
+2. Collect information about the product using APIs
+3. Store all collected and processed data in a structured format (e.g., CSV files or databases) and maintain uniformity. [Sample dataset consist of columns: Date, Region, Country, Supplier, Item, Inventory Level, Lead Time (days), Transport Status, News Sentiment, Risk Factors]
+4. Feed informations to the LLM (OpenAI GPT-4 or open-source LLaMA). Train the model.
+5. Extract:Sentiment (positive/negative/neutral)
+6. Risk Analysis
