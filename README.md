@@ -35,10 +35,17 @@ Extract data such as news articles, supplier updates, import export dates, and m
 
 ## Milestone 2
 ### Tasks
-1. Choose a specific product for start to end analysis.
+1. Choose a specific product for start to end analysis. **Product --> Tomato**
 2. Collect information about the product using APIs
 3. Store all collected and processed data in a structured format (e.g., CSV files or databases) and maintain uniformity. [Sample dataset consist of columns: Date, Region, Country, Supplier, Item, Inventory Level, Lead Time (days), Transport Status, News Sentiment, Risk Factors]
 4. Feed informations to the LLM (OpenAI GPT-4 or open-source LLaMA). Train the model.
-5. Extract:Sentiment (positive/negative/neutral)
-6. Risk Analysis
+5. Extract:Sentiment (positive/negative/neutral) & Risk Analysis
 ### Problems & Solutions
+1. Faced challenges to collect proper data. --> explore newapi, kaggle, Govt. agriculture Dept. , chatgpt
+![image](https://github.com/user-attachments/assets/a13250e0-2588-417b-a4c5-4a38ea52d9e8)
+use NewsAPIs fetch only 9 rows.
+2. Try to fetch data from Kaggle faces issued in formate of dataset
+![image](https://github.com/user-attachments/assets/c384762d-ae1f-4a2d-8da4-28f406b0fab0)
+3. Lack of specific columns in dataset collected from kaggle.
+4. Modified all fetched information and generate sample dataset using chatgpt
+5. Free models for sentiment and Risk analysis : ** facebook/bart-large-mnli, cardiffnlp/twitter-roberta-base-sentiment , yiyanghkust/finbert-tone**
