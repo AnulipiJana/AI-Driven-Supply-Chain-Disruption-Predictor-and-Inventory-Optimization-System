@@ -1,17 +1,6 @@
 # **AI-Driven Supply Chain Disruption Predictor and Inventory Optimization System**
 This repository contains the code for an AI-Driven Supply Chain Disruption Predictor and Inventory Optimization System aims to provide businesses with a solution for predicting supply chain disruptions and optimizing inventory in real-time. The system leverages FastAPIs, advanced machine learning algorithms and real-time data integration to proactively identify and manage disruptions in global supply chains. Forecasts potential disruptions, and suggests dynamic inventory adjustments based on predictive models. 
 ## Key features
-1. Global Data Monitoring: Continuously monitors and analyzes global data sources such as news, supplier updates, and transportation trends.
-2. Predictive Disruption Modeling: Uses machine learning to forecast potential disruptions and their impacts on inventory levels.
-Inventory Optimization: Automatically adjusts inventory levels and reordering recommendations based on risk predictions.
-Real-time Alerts: Sends notifications via Slack or Email when disruptions are predicted or inventory levels need adjustment.
-Visual Dashboard: Provides a user-friendly interface to visualize supply chain risks, inventory status, and disruption forecasts.
-
-Predicting supply chain disruptions based on global data (e.g., news, supplier data, transportation trends).
-Optimizing inventory levels dynamically based on disruption predictions.
-Sending real-time alerts and notifications via Slack or Email.
-Seamlessly integrating with ERP systems (e.g., SAP) for inventory adjustments.
-
 1. Monitor Global Supply Chain Data: The system will keep track of global news, supplier information, and transportation updates, using APIs (NewsApi, GoMaps, WeatherApi etc.)
 2. Predict Potential Disruptions: The LLM Models (Bert, T5, MetaLLM) will identify and analysis possible risks and sentiment that could affect the supply chain.
 3. Optimize Inventory Levels: Based on the predicted risks, the system will suggest adjustments to inventory levels to avoid shortages or excess stock. It will forecast these disruptions before they happen.
