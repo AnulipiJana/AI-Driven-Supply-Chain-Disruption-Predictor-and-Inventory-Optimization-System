@@ -60,10 +60,8 @@ use NewsAPIs fetch only 9 rows.
 ### Problems & Solutions
 1. Find difficulty in finding slack webhook URL
 2. Find difficulty in email and app specific password and security.
-![image](https://github.com/user-attachments/assets/b221ad8b-8310-49a1-8a2f-f986043aebd8)
+![image](https://github.com/user-attachments/assets/766c5f4d-9551-4c32-9400-80311e4a794f)
 ![image](https://github.com/user-attachments/assets/f39469ee-1901-421d-87d7-963263420280)
-
-![image](https://github.com/user-attachments/assets/3cbaded7-3807-4260-ba29-2b4a5b9cc685)
 
 
 
